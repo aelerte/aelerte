@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Inline CSS
+An inline style may be used to apply a unique style for a single element.
+
+To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property. -->
+
+<style>
+    *{
+
+        margin-bottom: 10pt;
+  
+    }
+</style>
+
+<body style="background-color: rgb(255); height: 100vh; display: flex; flex-direction: column; justify-content: center;">
+
+    <center>
+
+    
+   
+    <h1>FIVE AND DIME</h1>
+    <h2>LOG IN</h2>
+    <p>Enter details to log into your account</p>
+    <form>
+        <!-- for attribute of label tag should be equal to the
+    id attribute of the input element to bind them together -->
+        
+        <label for="username">Username: </label> <br>
+        <input type = "text" id = "username" name = "username"> <br>
+        
+        <label for="password">Password: </label> <br>
+        <input type = "password" id = "password" name = "password"> <br>
+
+        <input type = "button" onclick="document.location='mainpage.html'" value = "Log into your account">
+    </form>
+
+    <a href = "signup.html">sign up page</a>
+
+</center>
+</body>
+</html>
